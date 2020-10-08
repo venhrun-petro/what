@@ -1,0 +1,15 @@
+<nav>
+        <ul class="menu">
+            <li><a href="{{ .Site.BaseURL }}"><span>
+            <img src = "images/favicon-16x16.png"> 
+            <span style="font-family: Questrial; font-size: 18px;">
+                Whatbank.ca</span></a></li>
+            {{ range .Site.Menus.nav }}
+            <li class="u-pull-right">
+                <a href="{{ .URL | absLangURL }}" class="Members">
+                    <span>{{ .Pre }} {{ .Name }}</span>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+</nav>

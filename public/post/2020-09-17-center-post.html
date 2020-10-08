@@ -1,0 +1,46 @@
+
+<script src="/rmarkdown-libs/core-js/shim.min.js"></script>
+<script src="/rmarkdown-libs/react/react.min.js"></script>
+<script src="/rmarkdown-libs/react/react-dom.min.js"></script>
+<script src="/rmarkdown-libs/reactwidget/react-tools.js"></script>
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/reactable-binding/reactable.js"></script>
+
+
+<p>title: “Conditional Colored Square in Reactable Table”
+author: IX
+date: ‘September 25, 2020’
+slug: test
+categories: []
+tags: []
+output:
+html_document
+—</p>
+<p>Help</p>
+<style type="text/css">
+ .row {
+    display : flex;
+    align-items : center;
+    margin-bottom: 15px;
+  }
+.box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  margin-right : 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+</style>
+<div id="htmlwidget-1" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Order":[2300,2301,2302,2303,2304],"Created":["2019-04-01","2019-04-02","2019-04-03","2019-04-04","2019-04-05"],"Customer":["Le Suer","Caravaggio","Tintoretto","Barocci","F. Zucarro"],"Status":[1,2,3,4,5],"Flag":["","","","",""]},"columns":[{"accessor":"Order","name":"Order","type":"numeric"},{"accessor":"Created","name":"Created","type":"Date"},{"accessor":"Customer","name":"Customer","type":"character"},{"accessor":"Status","name":"Status","type":"numeric","cell":[{"name":"div","attribs":{"className":"tag box green1"},"children":["1"]},{"name":"div","attribs":{"className":"tag box green2"},"children":["2"]},null,null,null]},{"accessor":"Flag","name":"Flag","type":"character","cell":[{"name":"div","attribs":{"className":"tag box green"},"children":[""]},{"name":"div","attribs":{"className":"tag box green"},"children":[""]},{"name":"div","attribs":{"className":"tag box green"},"children":[""]},{"name":"div","attribs":{"className":"tag box green"},"children":[""]},{"name":"div","attribs":{"className":"tag box green"},"children":[""]}]}],"defaultPageSize":10,"paginationType":"numbers","showPageInfo":true,"minRows":1,"dataKey":"a87b9bea84810f71ba0f3dd54527ab2e","key":"a87b9bea84810f71ba0f3dd54527ab2e"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>

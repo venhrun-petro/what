@@ -1,0 +1,39 @@
+theme = "hugo-sugoi"
+baseURL = "https://vibrant-feynman-8d2610.netlify.app/"
+languageCode = "en-us"
+title = "Canadian High Interest Savings Rates"
+summaryLength = 2000
+paginate = 5000
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+# Google Analytics ID, Uncomment below line to enable
+# googleAnalytics = "UA-123-45"
+
+# Enter your disqus Shortname and uncomment below line to enable
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    
+favicon = "images/favicon-16x16.png"
+herotitle = "Maximize Your Savings!"
+herolink = ""
+
+contact = "Send me a message and I will get back as soon as possible."
+Copyright = "&copy; Whatbank.ca"
+[hero]
+
+[menu]
+    [[menu.nav]]
+        name    = "About"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "about"
+        weight  = -1
+#    [[menu.nav]]
+#        name    = "blog"
+#        pre = "<i class='fas fa-list'></i>"
+#        url     = "post"
+#        weight  = -2
+    [[menu.nav]]
+        name    = "Contact"
+        pre = "<i class='fas fa-envelope'></i>"
+        url     = "contact"
+        weight  = -3

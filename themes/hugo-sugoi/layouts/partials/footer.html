@@ -1,0 +1,6 @@
+<footer>
+    <span class="Copyright">
+        {{ with .Site.Params.Copyright | default "&copy;" }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+        <a href="https://whatbank.ca" title="Whatbank" alt="Whatbank" target="_blank"></a>
+    </span>
+</footer>

@@ -1,0 +1,30 @@
+.row {
+    display : flex;
+    align-items : center;
+    margin-bottom: 15px;
+  }
+.box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  margin-right : 5px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 12px;
+  color: green;
+}
+
+.status-green {
+  background: green;
+  color: green;
+}
+
+.status-red {
+  background: red;
+  color: red;
+}

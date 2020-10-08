@@ -1,0 +1,38 @@
+List of Files
+
+Rmarkdown
+whatbank_hugo/content/post/2020-09-06-rates_table_DO_NOT_DELETE.Rmd
+whatbank_hugo/content/post/2020-09-24-iframe-test-post.Rmd
+Blogdown Post that is the main site.
+
+______________________________________________________________________
+
+R
+src/create_HIS_rate_table/rate_table.R
+Creates the data frame that is used by Reactable table. 
+
+src/bar_graph_w_numbers/render_bar_graph_func.R
+Used to draw the bar graphs in the table
+
+src/shiny_table_and_graph/get_c3_plot.R
+Displays Javascript line graph
+
+src/shiny_table_and_graph/shiny_table_and_graph.R
+Shiny app that connects interactive table with c3 chart
+Uses the two functions below:
+
+src/shiny_table_and_graph/get_his_w.R - Get the historical data in wide format
+get_c3_plot.R - Create color vector so no grey overlap, format plot
+
+src/shiny_table_and_graph/www
+css files that create square "Insured By" flag as well as custom sort icons
+
+______________________________________________________________________
+
+src/reactable_checkboxes/shiny_reactable_max_checkboxes.R
+Demonstrate a shiny app displaying a Reactable table and printing the FI name from checkboxes checked
+
+
+
+
+

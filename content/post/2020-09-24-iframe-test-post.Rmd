@@ -1,0 +1,16 @@
+---
+title: High Interest Savings Accounts
+author: whatbank.ca
+date: '2020-09-24'
+slug: iframe-test-post
+categories: []
+tags: []
+---
+Most Canadians keep their savings in Canada's big six banks. Since they don't need your money they don't pay you much interest. Whatbank clearly shows you whose paying you the most competitive rates for your hard earned dollars. There are no ads. No incentives to show you only whose paying me to show you. These are the highest interest savings accounts across Canada - updated daily. Note about insurance CDIC vs Manitoba. Sort by any column. Click on the bank name to learn more about the condiitons of the rate.
+
+Better than that, below the table is a graph linked ot the table. Compare up to five financial institutions by selecting from the column on the left. 
+
+These are not teaser rates that are only valid for a few months. Still, they can change at any time. The even better-er part is you can be notified when the highest rate changes, any in the top ten, or just the financial institutions that you select. 
+And even better-er  
+
+<iframe height="1100" width="100%" frameborder="no" src="https://whatbank.ca"> </iframe>

@@ -1,0 +1,26 @@
+.rt-th[aria-sort='ascending'] .rt-sort-left::after,
+.rt-th[aria-sort='ascending'] .rt-sort-right::after {
+  content: '\25B2';
+}
+
+.rt-th[aria-sort='descending'] .rt-sort-left::after,
+.rt-th[aria-sort='descending'] .rt-sort-right::after {
+  content: '\25BC';
+}
+
+.rt-th[aria-sort='none'] .rt-sort::after {
+  content: '\21C5';
+  opacity: 0.4;
+}
+
+.rt-th[data-sort-hint='ascending'] .rt-sort-left::after,
+.rt-th[data-sort-hint='ascending'] .rt-sort-right::after {
+  content: '\25B2';
+  opacity: 0.4;
+}
+
+.rt-th[data-sort-hint='descending'] .rt-sort-left::after,
+.rt-th[data-sort-hint='descending'] .rt-sort-right::after {
+  content: '\25BC';
+  opacity: 0.4;
+}
