@@ -1,5 +1,5 @@
 theme = "hugo-sugoi"
-baseURL = "http://localhost:1313/"
+baseURL = "https://blissful-northcutt-37ed2d.netlify.app/"
 languageCode = "en-us"
 title = "Canadian High Interest Savings Rates"
 summaryLength = 2000
