@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="section hero">
+    <img src="{{ .Site.BaseURL }}images/Bank.jpg" class="hero-img" alt="hero-img" >
+    <div class="container">
+      <h1 class="section-heading">{{ .Title }}</h1>
+    </div>
+  </div>
+
+  <div class="section main-content">
+    <div class="container">
+      <article class="main-content_block">
+            {{ .Content }}
+            {{ template "_internal/disqus.html" . }}
+        </article>
+    </div>
+</div>
+
+{{ end }}

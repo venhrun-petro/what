@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+<div class="section main-content">
+  <div class="container">
+    
+    <article class="main-content_block">
+      {{ range first 1 (where .Site.RegularPages "Type" "post" )}} 
+      {{ if gt .ReadingTime 1 }}
+      {{ .Scratch.Set "readingTime" "minutes" }}
+      {{ else }}
+      {{ .Scratch.Set "readingTime" "minute" }}
+      {{ end }}
+ 
+       
+       <h2  alt="{{.Title}}" title="{{.Title}}">{{.Title}}</h2>
+ 
+      <p class="card-text">{{ .Content }}</p>
+      <div class="row">
+ 
+        <div class="six columns"><div class="u-pull-right"><i class="{{.Params.Icon}}"></i>
+          <span class="category">
+            {{ range .Params.Categories }}
+            <a href="{{ "/categories/" | relLangURL}}{{ . | urlize }}">
+              {{.}}
+            </a>
+          </span>
+          {{ end }}
+        </div>
+        </div>
+      </div>
+    {{ end }}
+  </article>
+  </div>
+ 
+</div>
+
+{{ end }}

@@ -1,5 +1,5 @@
 theme = "hugo-sugoi"
-baseURL = "https://vibrant-feynman-8d2610.netlify.app/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Canadian High Interest Savings Rates"
 summaryLength = 2000

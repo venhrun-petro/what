@@ -1,0 +1,27 @@
+<header class="header">
+    <div class="container">
+        <div class="header_cont">
+            <nav class="header_nav">
+                <li><a href="{{ .Site.BaseURL }}"><span>
+                    <img src = "{{ .Site.BaseURL }}images/favicon-16x16.png"> 
+                    <span style="font-family: Questrial; font-size: 18px;">
+                        Whatbank.ca</span></a>
+                </li>
+                <ul class="menu header_nav_menu">
+                    {{ range .Site.Menus.nav }}
+                    <li class="u-pull-right">
+                        <a href="{{ .URL | absLangURL }}" class="Members">
+                            <span>{{ .Pre }} {{ .Name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            <div class="hamburger hamburger--slider js-hamburger">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

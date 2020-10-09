@@ -2,9 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Canadian High Interest Savings Rates</title>
-    <link>/categories/</link>
+    <link>https://vibrant-feynman-8d2610.netlify.app/categories/</link>
     <description>Recent content in Categories on Canadian High Interest Savings Rates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://vibrant-feynman-8d2610.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
